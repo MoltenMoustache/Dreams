@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VINES1
-  m_Shader: {fileID: 4800000, guid: 0bf2fbdc14366694cb6734bd9b081ffe, type: 3}
+  m_Name: Skin1
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 1
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -35,23 +35,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: 33e3ca89eb024f94a8f9b2e64cdb42af, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 33e3ca89eb024f94a8f9b2e64cdb42af, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normal:
+    - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,49 +55,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SnowTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BaseColorYShift: 1
-    - _BaseLight: 0
-    - _BulgeScale: 0.18
-    - _BulgeScale_copy: 0.64
-    - _BulgeShape: 0.6
     - _BumpScale: 1
-    - _Cutoff: 0.374
+    - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FadeThreshold: 117.5
-    - _Glossiness: 0.5
-    - _InteractMaxYoffset: 1.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RandYScale: 1
-    - _RippleScale: 0
-    - _SmoothMotionFactor: 255
-    - _SpecularPower: 1.7285714
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StopMotionThreshold: 4.6238537
-    - _TintFrequency: 0.1
-    - _TintPower: 0
     - _UVSec: 0
-    - _WaveXFactor: 0
-    - _WaveYFactor: 0
     - _ZWrite: 1
-    - shadowBrightness: 1
-    - shadowBrightnessCutoff: 0
     m_Colors:
-    - _Color: {r: 0.8235294, g: 0.4117647, b: 0.4117647, a: 1}
-    - _ColorGlobal: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _ColorGlobal1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.7924528, g: 0.6938942, b: 0.48967603, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
-    - _InteractSpeed: {r: 0.45494646, g: -0.02600786, b: 0.83073556, a: 0}
-    - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
-    - _TimeControl1: {r: 2, g: 0, b: 0.75, a: 0}
-    - _WaveControl1: {r: 0, g: 0, b: 0, a: 0.45}
   m_BuildTextureStacks: []

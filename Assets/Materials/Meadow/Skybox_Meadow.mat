@@ -82,9 +82,9 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _CloudsCat1: 1
-    - _CloudsHeight: 0.136
+    - _CloudsHeight: 0.14
     - _CloudsLitbySun: 0
-    - _CloudsRotation: 360
+    - _CloudsRotation: 95
     - _CloudsRotationSpeed: 0.5
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -97,8 +97,8 @@ Material:
     - _EnableStars: 0
     - _EnableStarsTwinkling: 0
     - _EnableSun: 0
-    - _EquatorHeight: 0.608
-    - _EquatorSmoothness: 0.01
+    - _EquatorHeight: 0.75
+    - _EquatorSmoothness: 0.305
     - _FogCat1: 1
     - _FogFill: 0
     - _FogHeight: 0
@@ -135,12 +135,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _CloudsLightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudsShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+    - _CloudsShadowColor: {r: 0.8867924, g: 0.83773744, b: 0.70692414, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EquatorColor: {r: 0.6839622, g: 0.9139282, b: 1, a: 1}
-    - _GroundColor: {r: 0, g: 0.45917034, b: 1, a: 1}
+    - _EquatorColor: {r: 1, g: 0.87260133, b: 0.68235296, a: 1}
+    - _GroundColor: {r: 1, g: 0.48650524, b: 0, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyColor: {r: 0.19339621, g: 0.63242704, b: 1, a: 1}
+    - _SkyColor: {r: 0.19223925, g: 0.58400255, b: 0.9056604, a: 1}
     - _SunColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

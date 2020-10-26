@@ -122,7 +122,7 @@ Material:
     - _ImageTexCoords8: {r: 0, g: 0, b: 0, a: 0}
     - _ImageTexCoords9: {r: 0, g: 0, b: 0, a: 0}
     - _InstanceData: {r: 0, g: 0, b: 0, a: 0}
-    - _InteractPos: {r: 138.94008, g: 0.73, b: -2.778769, a: 0}
+    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _Params1: {r: 11.86, g: 24.5, b: 19.6, a: 0}
     - _Params2: {r: 9.72, g: 18.71, b: 9.89, a: 0}
@@ -143,3 +143,4 @@ Material:
     - _WaveAndDistance: {r: 12, g: 3.6, b: 1, a: 1}
     - _WaveControl1: {r: 1.01, g: 0, b: 0, a: 0}
     - _WavingTint: {r: 0.7, g: 0.6, b: 0.5, a: 0}
+  m_BuildTextureStacks: []

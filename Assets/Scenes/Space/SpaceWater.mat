@@ -63,14 +63,14 @@ Material:
     - _Height_: -0.082172014
     - _Length: 2
     - _LightAbs: 1
-    - _NormalOffset: 0.69
+    - _NormalOffset: 5
     - _Opacity: 0.8
     - _PointLights: 0
     - _RHeight: 0.2
     - _RHeight_: 0.16434403
     - _RSpeed: 0.3
     - _RSpeed_: 0.24651605
-    - _Reflection: 2
+    - _Reflection: 1.94
     - _Refraction: 2
     - _Scale: 1
     - _Scale_: 0.8217201

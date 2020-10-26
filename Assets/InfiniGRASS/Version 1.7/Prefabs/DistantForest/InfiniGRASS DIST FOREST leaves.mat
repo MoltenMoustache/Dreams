@@ -129,6 +129,8 @@ Material:
     - _WaveXFactor: 0.1
     - _WaveYFactor: 0.1
     - _ZWrite: 0
+    - shadowBrightness: 1
+    - shadowBrightnessCutoff: 0
     m_Colors:
     - _Color: {r: 0.97794116, g: 0.97794116, b: 0.97794116, a: 1}
     - _Color2: {r: 0.7941176, g: 0.046712797, b: 0.046712797, a: 1}
@@ -140,9 +142,9 @@ Material:
     - _GlowColor: {r: 0.75735295, g: 0.41001523, b: 0.41001523, a: 0.9764706}
     - _HeightControlPoints: {r: 0, g: 1, b: 1, a: 1}
     - _InteractAmpFreqRad: {r: 7.93, g: 38.75, b: -0.04, a: 1}
-    - _InteractPos: {r: 138.94008, g: 0.73, b: -2.778769, a: 0}
+    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
     - _InteractPos1: {r: 250.90964, g: 11.956206, b: -69.44555, a: 0}
-    - _InteractSpeed: {r: -0.14855371, g: 0, b: -0.00028162633, a: 0}
+    - _InteractSpeed: {r: 0.45494646, g: -0.02600786, b: 0.83073556, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _Params1: {r: 11.86, g: 24.5, b: 19.6, a: 0}
     - _Params2: {r: 9.72, g: 18.71, b: 9.89, a: 0}
@@ -153,3 +155,4 @@ Material:
     - _WaveAndDistance: {r: 12, g: 3.6, b: 1, a: 1}
     - _WaveControl1: {r: 1, g: 0, b: 1, a: 0}
     - _WavingTint: {r: 0.7, g: 0.6, b: 0.5, a: 0}
+  m_BuildTextureStacks: []

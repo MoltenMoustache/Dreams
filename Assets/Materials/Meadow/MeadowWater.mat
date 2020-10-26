@@ -70,7 +70,7 @@ Material:
     - _RHeight_: 0.6
     - _RSpeed: 0.3
     - _RSpeed_: 0.90000004
-    - _Reflection: 1
+    - _Reflection: 1.15
     - _Refraction: 2
     - _Scale: 1
     - _Scale_: 3
@@ -90,11 +90,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
-    - _DeepColor: {r: 0.35479707, g: 0.42411664, b: 0.6320754, a: 1}
+    - _DeepColor: {r: 0.40806338, g: 0.4806993, b: 0.6603774, a: 1}
     - _Direction_: {r: -0.83867055, g: 0.54463905, b: -0, a: 0}
     - _FresColor: {r: 1, g: 0.6420512, b: 0.3066038, a: 1}
     - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 0.93485844, b: 0.7028302, a: 1}
-    - _Sun: {r: -0.056886584, g: 0.7101602, b: 0.70173824, a: 0}
-    - _SunColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Sun: {r: 0.6553339, g: 0.7453893, b: 0.1221987, a: 0}
+    - _SunColor: {r: 1, g: 0.9063861, b: 0.7971698, a: 1}
   m_BuildTextureStacks: []

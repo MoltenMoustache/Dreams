@@ -153,7 +153,7 @@ Transform:
   m_Children:
   - {fileID: 1476627689}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &527891368
 MonoBehaviour:
@@ -168,6 +168,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5292093429982023834}
+--- !u!1001 &636744167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.70319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.266335
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8205358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57159525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 110.277
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341987877786638654, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861220786818909060, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+      propertyPath: m_Name
+      value: MeadowChick
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
 --- !u!1 &841614640
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +360,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1476627685
 GameObject:
@@ -441,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013665620186, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000013665620186, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -485,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000012341209002, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
       propertyPath: reflection.textureSize
-      value: 512
+      value: 1024
       objectReference: {fileID: 0}
     - target: {fileID: 114000012341209002, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
       propertyPath: enableReflection
@@ -497,6 +554,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
+--- !u!1 &1973050845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1861220786818909060, guid: 249779990f4fd70419e4f88b5c289e10, type: 3}
+  m_PrefabInstance: {fileID: 636744167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1973050846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973050845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c418186e078fe8044a20c38cc6b6050a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRange: 5
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 1
+--- !u!114 &1973050847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973050845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2a77e2d509d634594b89542aba445a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dreamSceneTitle: Meadow
 --- !u!33 &4767160179679518397
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -546,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013083283920, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000013083283920, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

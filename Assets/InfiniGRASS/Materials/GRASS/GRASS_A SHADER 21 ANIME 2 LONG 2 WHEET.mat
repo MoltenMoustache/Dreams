@@ -76,8 +76,8 @@ Material:
     - _EmisColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _GlowColor: {r: 0.75735295, g: 0.41001523, b: 0.41001523, a: 0.9764706}
-    - _InteractPos: {r: 14.47, g: 7.582106, b: -13.071015, a: 0}
-    - _InteractSpeed: {r: -2.648895e-19, g: -3e-45, b: -2.4874072e-18, a: 0}
+    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
+    - _InteractSpeed: {r: 0.45494646, g: -0.02600786, b: 0.83073556, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _Params1: {r: 11.86, g: 24.5, b: 19.6, a: 0}
     - _Params2: {r: 9.72, g: 18.71, b: 9.89, a: 0}

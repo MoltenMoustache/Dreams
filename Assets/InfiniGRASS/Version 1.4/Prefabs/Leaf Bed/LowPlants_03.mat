@@ -123,6 +123,8 @@ Material:
     - _WaveXFactor: 0.1
     - _WaveYFactor: 0.1
     - _ZWrite: 1
+    - shadowBrightness: 1
+    - shadowBrightnessCutoff: 0
     m_Colors:
     - _Color: {r: 0, g: 0.040816333, b: 0.24489795, a: 1}
     - _ColorGlobal: {r: 1, g: 1, b: 1, a: 0}
@@ -130,10 +132,11 @@ Material:
     - _EmissionColor: {r: 0.134, g: 0.134, b: 0.134, a: 1}
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
-    - _InteractPos: {r: 138.94008, g: 0.73, b: -2.778769, a: 0}
-    - _InteractSpeed: {r: -0.14855371, g: 0, b: -0.00028162633, a: 0}
+    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
+    - _InteractSpeed: {r: 0.45494646, g: -0.02600786, b: 0.83073556, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TimeControl1: {r: 2, g: 0, b: 0.75, a: 0}
     - _WaveControl1: {r: 1, g: 0.01, b: 0.001, a: 0.3}
+  m_BuildTextureStacks: []

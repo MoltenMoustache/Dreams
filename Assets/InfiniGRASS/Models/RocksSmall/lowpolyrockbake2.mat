@@ -68,8 +68,9 @@ Material:
     - _Color: {r: 0.7244898, g: 0.6836735, b: 0.67346936, a: 1}
     - _Direction: {r: 0, g: 1, b: 0, a: 1}
     - _HeightControlPoints: {r: 0.2, g: 0.3, b: 0.4, a: 0.96}
-    - _InteractPos: {r: 138.94008, g: 0.73, b: -2.778769, a: 0}
+    - _InteractPos: {r: 20.008053, g: 3.0849357, b: -6.6467485, a: 0}
     - _OceanCenter: {r: 0, g: 0, b: 0, a: 0}
     - _Power: {r: 0.5, g: 0.5, b: 1, a: 1}
     - _TimeControl1: {r: 2, g: 0, b: 0.75, a: 0}
     - _WaveControl1: {r: 1, g: 0.01, b: 0.001, a: 0}
+  m_BuildTextureStacks: []
