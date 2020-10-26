@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1174069783}
-  m_IndirectSpecularColor: {r: 0.038885046, g: 0.038885046, b: 0.038885046, a: 1}
+  m_IndirectSpecularColor: {r: 0.0030096783, g: 0.0030096783, b: 0.0030096783, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a5fb67a0dc0e843a3b277970421a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 4000013303795544}
+  player: {fileID: 5292093429982023834}
 --- !u!1 &841614640
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,98 +497,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1f03fd4e96302841adf5646cd8a98cd, type: 3}
---- !u!1 &1000010618964456 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000010913929056, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-  m_PrefabInstance: {fileID: 5296091402276225354}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1000010618964457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010618964456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 0dbdfd0a819a18c448261b263776278f, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
---- !u!114 &1000010618964458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010618964456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 4000010802817090}
-  volumeLayer:
-    serializedVersion: 2
-    m_Bits: 2
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 1
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
---- !u!4 &4000010802817090 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000011021137610, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-  m_PrefabInstance: {fileID: 5296091402276225354}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4000013303795544 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000013083283920, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-  m_PrefabInstance: {fileID: 5296091402276225354}
-  m_PrefabAsset: {fileID: 0}
 --- !u!33 &4767160179679518397
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -597,17 +505,13 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9136767718585797538}
   m_Mesh: {fileID: 7803778804846005805, guid: 1bbdfd9ebf09c5f41bad14e9fe952130, type: 3}
---- !u!1001 &5296091402276225354
+--- !u!1001 &4919674047665321706
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1000010913929056, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: m_Layer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1000012093222216, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -656,28 +560,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 20000012026536512, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20000012026536512, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20000012026536512, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20000012026536512, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: m_BackGroundColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20000012026536512, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
-      propertyPath: far clip plane
-      value: 5000
+    - target: {fileID: 8159576263814811280, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
+--- !u!4 &5292093429982023834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000013083283920, guid: fce3c3cde6a304947bf36a371d78f0a8, type: 3}
+  m_PrefabInstance: {fileID: 4919674047665321706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!23 &7335428816778537591
 MeshRenderer:
   m_ObjectHideFlags: 0
